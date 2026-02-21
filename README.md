@@ -7,7 +7,7 @@
 ### Cloud Machine : Google Colab (Free GPU)
 
 * Follow this Notebook installation :<br>
-https://colab.research.google.com/github/xbresson/IPAM_Mar26/blob/main/installation/installation.ipynb
+https://colab.research.google.com/github/xbtrainings/IPAM_Mar26/blob/main/installation/installation.ipynb
 
 * Open your Google Drive :<br>
 https://www.google.com/drive
