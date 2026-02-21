@@ -1,0 +1,27 @@
+# Xavier Bresson
+# conda env create -f environment_osx_arm64.yml
+# conda activate deeplearn
+
+name: deeplearn
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip=24.2
+  - jupyter=1.0
+  - ipython=8.12
+  # pip-specific installs
+  - pip: # critical : a double indentation is required to install pip packages below
+    - numpy==1.24
+    - pandas==2.0.3
+    - scipy==1.10.1
+    - matplotlib==3.7.1
+    - seaborn==0.13.0
+    - networkx==3.1
+    # PyTorch (CPU) 
+    - torch==2.1.2
+    - torchvision==0.16.2
+    # RL
+    - "gymnasium[classic_control]"
+
