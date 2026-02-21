@@ -1,0 +1,31 @@
+# Xavier Bresson
+# conda env create -f environment_osx_arm64.yml
+# conda activate deeplearn
+
+name: deeplearn
+channels:
+  - pytorch       # deep learning
+  - conda-forge   # numpy, etc
+  - defaults
+dependencies:
+  # Core 
+  - python=3.8
+  - pip=24.2
+  # Data Science 
+  - numpy=1.24
+  - scipy=1.10.1
+  - pandas=2.0
+  - matplotlib=3.7
+  - seaborn=0.13
+  - networkx=3.1
+  # Interactive
+  - jupyter=1.0
+  - ipython=8.12
+  # Deep Learning (CPU) 
+  - pytorch=2.1.2
+  - torchvision=0.16
+  # Pip Packages 
+  - pip:
+    - "gymnasium[classic_control]"
+
+
